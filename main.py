@@ -9,13 +9,13 @@ plugins = dict(root="plugins")
 
 
 async def main():
-  user = Client("6691393517",
-                api_id="27649783",
-                api_hash="834fd6015b50b781e0f8a41876ca95c8")
-  bot = Client("6576720076:AAHl8BykARQd19gwLyE2BN-6q3tc_StYrUo",
-               api_id="27649783",
-               api_hash="834fd6015b50b781e0f8a41876ca95c8",
-               bot_token="6576720076:AAHl8BykARQd19gwLyE2BN-6q3tc_StYrUo",
+  user = Client("1108915205",
+                api_id="26949669",
+                api_hash="4f1a7b9ea16310ecbabe42434da7a155")
+  bot = Client("6926114519:AAHHhVvlbv2T0RDeFwzGZSRIFVNv7jzP-_M",
+               api_id="26949669",
+               api_hash="4f1a7b9ea16310ecbabe42434da7a155",
+               bot_token="6926114519:AAHHhVvlbv2T0RDeFwzGZSRIFVNv7jzP-_M",
                plugins=plugins)
   clients = [user, bot]
   bot.set_parse_mode(enums.ParseMode.HTML)
