@@ -17,11 +17,11 @@ async def cmd_register(Client,message):
     results = str(regdata)
     if results=='None':
       registration = insert_reg_data(user_id,username,antispam_time,reg_at)
-      resp = "𝗨𝗦𝗘𝗥 𝗥𝗘𝗚𝗜𝗦𝗧𝗘𝗥𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 ✅ . 𝗧𝗬𝗣𝗘 /cmds 𝗧𝗢 𝗞𝗡𝗢𝗪 𝗠𝗬 𝗪𝗢𝗥𝗞 𝗔𝗕𝗜𝗟𝗜𝗧𝗬 🥰"
+      resp = "ʀᴇɢɪsᴛᴇʀᴇᴅ sᴜᴄᴄᴇsɪғᴜʟʟʏ ✅ . ᴛʏᴘᴇ /cmds ᴛᴏ sᴇᴇ ᴍʏ ғᴜʟʟ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ."
       await message.reply_text(resp,message.id)
   
     else:
-      resp = "𝗔𝗟𝗥𝗘𝗔𝗗𝗬 𝗥𝗘𝗚𝗜𝗦𝗧𝗘𝗥𝗘𝗗 ⚠️ .𝗧𝗬𝗣𝗘 /cmds 𝗧𝗢 𝗞𝗡𝗢𝗪 𝗠𝗬 𝗪𝗢𝗥𝗞 𝗔𝗕𝗜𝗟𝗜𝗧𝗬 🥰"
+      resp = "ᴀʟʀᴇᴀᴅʏ ʀᴇɢɪsᴛᴇʀᴇᴅ ⚠️ .ᴛʏᴘᴇ /cmds ᴛᴏ sᴇᴇ ғᴜʟʟ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ"
       await message.reply_text(resp,message.id)
       await plan_expirychk(user_id)
     
