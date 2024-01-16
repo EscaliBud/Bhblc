@@ -31,7 +31,7 @@ async def cmd_mchk(Client,message):
         await message.reply_text(resp,message.id)
       
       elif chat_type=="ChatType.GROUP" or   chat_type=="ChatType.SUPERGROUP" and chat_id not in GROUP:
-        resp = "𝗨𝗡𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗 𝗖𝗛𝗔𝗧 ❌. 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 @daxxsir 𝗧𝗢 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘."
+        resp = "𝗨𝗡𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗 𝗖𝗛𝗔𝗧 ❌. 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 @EscaliBud 𝗧𝗢 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘."
         await message.reply_text(resp,message.id)
       else:
         #CREDIT CHECK
@@ -141,7 +141,7 @@ async def cmd_mchk(Client,message):
 ⌧ Total CC Checked - {len_cards}
 ⌧ Credit Deducted - {len_cards}
 ⌧ Checked by: <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a> ♻️ [ {role}]
-⌧ Client by - <a href="tg://user?id=6691393517">𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™ </a>
+⌧ Bot by - <a href="tg://user?id=1108915205">𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟™ </a>
 －－－－－－－－－－－－－－－－</b>
           """
                   await Client.edit_message_text(message.chat.id,nov.id,text)
