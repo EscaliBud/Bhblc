@@ -39,7 +39,7 @@ async def cmd_chk(Client,message):
         await message.reply_text(resp,message.id)
       
       elif chat_type=="ChatType.GROUP" or   chat_type=="ChatType.SUPERGROUP" and chat_id not in GROUP:
-        resp = "𝗨𝗡𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗 𝗖𝗛𝗔𝗧 ❌. 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 @daxxsir 𝗧𝗢 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘."
+        resp = "𝗨𝗡𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗 𝗖𝗛𝗔𝗧 ❌. 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 @EscaliBud 𝗧𝗢 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘."
         await message.reply_text(resp,message.id)
       else:
         #CREDIT CHECK
@@ -234,7 +234,7 @@ async def cmd_chk(Client,message):
               if "success" in result:
                 status = "Live 🟢"
                 response = "Payment Successfull ✅"
-                hits_id = "-1001676234297"
+                hits_id = "-1002029972014"
                 resp = f"""
 <b>↯ CHARGE 
 
@@ -253,7 +253,7 @@ async def cmd_chk(Client,message):
 ⌧ Time in Progress - {toc - tic:0.4f}sec
 ⌧ Credit Deducted - 1
 ⌧ Checked by: <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a> ♻️ [ {role} ]
-⌧ Client by - <a href="tg://user?id=6691393517">𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™ </a>
+⌧ Client by - <a href="tg://user?id=1108915205">𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟™ </a>
 －－－－－－－－－－－－－－－－</b>
                 """
                 await Client.send_message(hits_id,resp)
@@ -268,7 +268,7 @@ async def cmd_chk(Client,message):
               elif "insufficient_funds" in result or "card has insufficient funds." in result:
                 status = "Live 🟢"
                 response = "Insufficient Funds ❎"
-                hits_id = "-1001676234297"
+                hits_id = "-1002029972014"
                 resp = f"""
 <b>↯ CHARGE 
 
@@ -287,14 +287,14 @@ async def cmd_chk(Client,message):
 ⌧ Time in Progress - {toc - tic:0.4f}sec
 ⌧ Credit Deducted - 1
 ⌧ Checked by: <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a> ♻️ [ {role} ]
-⌧ Client by - <a href="tg://user?id=6691393517">𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™ </a>
+⌧ Client by - <a href="tg://user?id=1108915205">𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟™ </a>
 －－－－－－－－－－－－－－－－</b>
                 """
                 await Client.send_message(hits_id,resp)
               elif "incorrect_cvc" in result or "security code is incorrect." in result or "Your card's security code is incorrect." in result:
                 status = "Live 🟡"
                 response = "CCN Live ❎"
-                hits_id = "-1001676234297"
+                hits_id = "-1002029972014"
                 resp = f"""
 <b>↯ CHARGE 
 
@@ -313,7 +313,7 @@ async def cmd_chk(Client,message):
 ⌧ Time in Progress - {toc - tic:0.4f}sec
 ⌧ Credit Deducted - 1
 ⌧ Checked by: <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a> ♻️ [ {role} ]
-⌧ Client by - <a href="tg://user?id=6691393517">𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™ </a>
+⌧ Client by - <a href="tg://user?id=1108915205">𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟™ </a>
 －－－－－－－－－－－－－－－－</b>
                 """
                 await Client.send_message(hits_id,resp)
@@ -390,7 +390,7 @@ async def cmd_chk(Client,message):
 ⌧ Time in Progress - {toc - tic:0.4f}sec
 ⌧ Credit Deducted - 1
 ⌧ Checked by: <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a> ♻️ [ {role} ]
-⌧ Client by - <a href="tg://user?id=6691393517">𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™ </a>
+⌧ Bot By by - <a href="tg://user?id=1108915205">𓄂ᴋ͟ʀ͟ᴇͥ͟sͣ͟sͫ͟ᴡ͟ᴇ͟ʟ͟ʟ͟™ </a>
 －－－－－－－－－－－－－－－－</b>
             """
             
