@@ -17,14 +17,14 @@ async def cmd_cmds(Client,message):
       await plan_expirychk(user_id)
       texta = f"""
   𝗛𝗲𝘆 <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a>
-  𝗟𝗼𝗮𝗱𝗶𝗻𝗴 𝗮𝗹𝗹 𝗼𝗳 𝗫𝗖𝗖 𝗕𝗢𝗧 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀..
+  𝗟𝗼𝗮𝗱𝗶𝗻𝗴 𝗮𝗹𝗹 𝗼𝗳 𝗜𝗛𝗞 𝗖𝗖 𝗕𝗢𝗧 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀..
       """
       msg1 = await message.reply_text(texta,message.id)
       textb = """
 𝗫 𝗖𝗖 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 ⚡ 𝗔𝗟𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 -
 
 ● 𝗙𝗜𝗥𝗦𝗧 𝗦𝗧𝗔𝗥𝗧 𝗧𝗛𝗘 𝗕𝗢𝗧 𝗖𝗠𝗗
-➔ <code>/start@chkmtc_Client</code>
+➔ <code>/start</code>
 ● 𝗖𝗖 𝗔𝗨𝗧𝗛 𝗖𝗛𝗘𝗖𝗞 𝗖𝗠𝗗
 ➔ <code>/au cc|mm|yy|cvv</code>
 ● 𝗖𝗖 𝗖𝗛𝗔𝗥𝗚𝗘 𝗖𝗛𝗘𝗖𝗞 𝗖𝗠𝗗
