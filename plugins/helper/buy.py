@@ -17,11 +17,11 @@ async def cmd_buy(Client,message):
 
 ● 𝗚𝗼𝗹𝗱 - 5K Credits + Premium Access For 1 Month at 4.99$
 
-🏦 𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗠𝗲𝘁𝗵𝗼𝗱: UPI,FAMPAY,PAYTM,BTC,LTC,USDT,AIRTM
+🏦 𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗠𝗲𝘁𝗵𝗼𝗱: USDT,MPESA,AIRTEL MONEY,PAYPAL
 
 𝘼𝙡𝙡 𝙋𝙡𝙖𝙣 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙑𝙖𝙡𝙞𝙙 𝙛𝙤𝙧 1 𝙈𝙤𝙣𝙩𝙝.𝘼𝙛𝙩𝙚𝙧 𝙩𝙝𝙖𝙩 𝙮𝙤𝙪 𝙝𝙖𝙫𝙚 𝙩𝙤 𝙥𝙪𝙧𝙘𝙝𝙖𝙨𝙚 𝙖𝙜𝙖𝙞𝙣 𝙖𝙣𝙮 𝙤𝙛 𝙩𝙝𝙞𝙨 𝙋𝙡𝙖𝙣 𝙩𝙤 𝙘𝙤𝙣𝙩𝙞𝙣𝙪𝙚 𝙪𝙨𝙞𝙣𝙜.
 
-<a href="tg://user?id=6691393517">-----CLICK HERE TO BUY PLAN-----</a>
+<a href="tg://user?id=1108915205">-----CLICK HERE TO BUY PLAN-----</a>
     """
     msg1 = await message.reply_text(resp,message.id)
     await plan_expirychk(user_id)
